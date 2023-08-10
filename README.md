@@ -1,6 +1,6 @@
 # FFmpegKit for SUPSTER_FLUTTER
 
-Сборка на основе пакета [FFmoegKit](https://github.com/arthenica/ffmpeg-kit)
+Сборка на основе пакета [FFmpegKit](https://github.com/arthenica/ffmpeg-kit)
 
 ### 1. Features
 
@@ -27,9 +27,10 @@
         --disable-asm \
         --enable-small \
         --disable-everything \
-        --enable-encoder=opus,aac \
-        --enable-decoder=opus,aac \
+        --enable-encoder=opus,aac,libopus \
+        --enable-decoder=opus,aac,libopus \
         --enable-muxer=opus,ogg,oga \
         --enable-demuxer=mov \
         --enable-protocol=file \
-        --enable-filter=aformat,anull,atrim,format,hflip,null,transpose,trim,vflip,aresample
+        --enable-filter=aformat,anull,atrim,format,hflip,null,transpose,trim,vflip,aresample \
+        --enable-libopus

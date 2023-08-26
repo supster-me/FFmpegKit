@@ -17,7 +17,7 @@
  * along with FFmpegKit.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package android.src.main.java.com.arthenica.ffmpegkit.flutter;
+package com.arthenica.ffmpegkit.flutter;
 
 import androidx.annotation.NonNull;
 
